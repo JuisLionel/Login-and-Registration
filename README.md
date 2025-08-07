@@ -28,7 +28,6 @@ Follow the steps below to run the application:
 <img src="./public/img/Preview Login.png" alt="Login page preview">
 
 <br />
-<br />
 
 <img src="./public/img/Preview Register.png" alt="Login page preview">
 
