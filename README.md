@@ -1,6 +1,8 @@
 # 💻 Login and Register Page
 
-I make this app using ReactJS to learn about local storage
+This app was developed using ReactJS as a way to explore and understand local storage.
+
+<br />
 
 ## 🚀 Installation
 
@@ -21,6 +23,7 @@ Follow the steps below to run the application:
     npm run dev
     ```
 
+<br />
 ## Preview Login and Register page
 
 <br />
