@@ -1,6 +1,6 @@
 # 💻 Login and Register Page
 
-I make this app using React-Js to learn about local storage
+I make this app using ReactJS to learn about local storage
 
 ## 🚀 Installation
 
@@ -8,7 +8,7 @@ Follow the steps below to run the application:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/Xavce/pt-central-project-txt.git
+    git clone https://github.com/JuisLionel/login.git
     ```
 
 2. Install the dependencies:
