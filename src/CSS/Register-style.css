@@ -1,0 +1,166 @@
+.Register {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,
+            #006CA5,
+            #0496C7,
+            #04BADE);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.Register-Info {
+    height: 550px; 
+    width: 460px;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register > .Register-Info > h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.Input-Container {
+    width: 450px;
+    margin-top: 20px;
+}
+
+.Register-Input {
+    width: 100%;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.checkbox-group a {
+    color: #e74c3c;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.checkbox-group p {
+    font-size: 12px;
+}
+
+.checkbox-group input {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.Register-Button {
+    width: 100%;
+    height: 40px;
+    background-color: #0072b1;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+.Register-Button:hover {
+    background-color: #00517c;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+.line {
+    flex: 1;
+    height: 2px;
+    width: 200px;
+    background-color: #6c757d;
+    margin: 0 5px;
+}
+
+.line-text {
+    font-size: 14px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.icon {
+    transition: transform 0.3s ease, color 0.2s ease;
+    color: black;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.icon:hover {
+    transform: scale(1.05);
+    color: white
+}
+
+.Facebook .icon-wrapper:hover {
+    background-color: #2d4373;
+}
+
+.Linkedin .icon-wrapper:hover {
+    background-color: #0072b1;
+}
+
+.Google .icon-wrapper:hover {
+    background-color: #4285F4;
+}
+
+.Register-Image img {
+    width: 360px;
+    height: 560px; 
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 30px 0px;
+}

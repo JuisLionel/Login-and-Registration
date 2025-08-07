@@ -1,0 +1,133 @@
+.Navbar {
+    height: 80px;
+    background-color: #02367B;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  .Navbar > .Navbar-Logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .Navbar > .Navbar-Logo > img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Navbar > .Navbar-Logo > a {
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .Navbar > .Navbar-Logo > a > h1 {
+    font-size: 18px;
+    color: white;
+    margin-left: 5px;
+    white-space: nowrap;
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  .Navbar > .Links {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .Navbar > .Links > a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 30px;
+    transition: background-color 0.1s ease;
+  }
+  
+  .Navbar > .Links > a:hover {
+    background-color: #032c63;
+  }
+  
+  #sidebar-activate {
+    display: none;
+  }
+  
+  .Open-Button,
+  .Close-Button {
+    padding: 0 20px;
+    display: none;
+  }
+
+  
+  @media (max-width: 850px) {
+    .Navbar {
+      justify-content: space-between; 
+    }
+  
+    .Navbar > .Navbar-Logo > h1 {
+      display: none;
+    }
+  
+    .Navbar > .Links {
+      flex-direction: column;
+      align-items: flex-start;
+  
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 9999999;
+      width: 300px;
+  
+      background-color: #032c63;
+      backdrop-filter: blur(40px);
+      box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1);
+      transition: 1s ease-out;
+    }
+  
+    .Navbar > .Links > a {
+      box-sizing: border-box;
+      height: auto;
+      width: 100%;
+      padding: 20px 30px;
+    }
+  
+    .Open-Button {
+      margin-left: auto;
+    }
+  
+    .Open-Button,
+    .Close-Button {
+      padding: 20px;
+      display: block;
+    }
+  
+    #sidebar-activate:checked ~ .Links {
+      right: 0;
+    }
+  
+    #sidebar-activate:checked ~ #overlay {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .Navbar > .Links {
+      width: 100%
+    }
+  }

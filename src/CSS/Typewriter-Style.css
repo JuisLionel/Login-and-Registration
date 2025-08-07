@@ -1,0 +1,13 @@
+/* #cursor {
+  display: inline-block;
+  width: 0.5ch;
+  color: orange;
+  background-color: transparent;
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+} */

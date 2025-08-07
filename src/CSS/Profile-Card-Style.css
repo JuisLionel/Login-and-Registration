@@ -1,0 +1,79 @@
+
+.Profile {
+    position: relative;
+    z-index: 99999;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Profile > .Top-Container {
+    width: 100%;
+    height: 700px;
+}
+
+.Profile > .Top-Container > .Background {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.Profile > .Top-Container > .Profile-picture {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    border-radius: 100%;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Profile > .Top-Container > .Profile-picture > img {
+    border-radius: 100%;
+    width: 280px;
+    height: 280px;
+}
+
+.profile-info {
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+.profile-info h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.profile-info>p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.Info p {
+    margin-right: 20px;
+}
+
+/* Handeling Hover */
+
+#Hover-1, #Hover-2, #Hover-3, #Hover-4 {
+    display: flex;
+    align-items: center;
+    color: #b4b4b4;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+#Hover-1:hover, #Hover-2:hover, #Hover-3:hover, #Hover-4:hover {
+    color: #5a5a5a;
+    transform: scale(1.06);
+}

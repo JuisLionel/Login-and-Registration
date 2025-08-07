@@ -1,0 +1,108 @@
+.Login {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,
+            #04BADE,
+            #0496C7,
+            #006CA5);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.Login-Image img {
+    width: 360px;
+    height: 560px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Login-Info {
+    height: 550px;
+    width: 460px;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login > .Login-Info > h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.checkbox-group-Login {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.checkbox-group-Login a {
+    color: #e74c3c;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+.checkbox-group-Login p {
+    font-size: 15px;
+}
+
+.checkbox-group-Login input {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.checkbox-group-Login input:checked+.ChangeColor {
+    color: #00517c;
+    transition: color 0.1s ease;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.Login-Button {
+    width: 100%;
+    height: 40px;
+    background-color: #0072b1;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.Login-Button:hover {
+    background-color: #00517c;
+}
+
+.Register-now {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.Register-now a {
+    color: #e74c3c;
+}

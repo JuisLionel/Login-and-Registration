@@ -1,0 +1,38 @@
+# 💻 Login and Register Page
+
+I make this app using React-Js to learn about local storage
+
+## 🚀 Installation
+
+Follow the steps below to run the application:
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Xavce/pt-central-project-txt.git
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the project:
+    ```bash
+    npm run dev
+    ```
+
+## Preview Login and Register page
+
+<br />
+
+<img src="./public/img/Preview Login.png" alt="Login page preview">
+
+<br />
+<br />
+
+<img src="./public/img/Preview Register.png" alt="Login page preview">
+
+
+
+
+
