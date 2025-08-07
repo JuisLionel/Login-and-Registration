@@ -24,6 +24,7 @@ Follow the steps below to run the application:
     ```
 
 <br />
+
 ## Preview Login and Register page
 
 <br />
